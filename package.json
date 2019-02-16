@@ -1,0 +1,17 @@
+{
+  "name": "x-plane-log-parser",
+  "version": "1.0.0",
+  "description": "A parser for x-plane log files, to remove all the stuff I don't care about",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "x-plane",
+    "log",
+    "parser"
+  ],
+  "author": "aeroniemi",
+  "license": "MIT"
+}

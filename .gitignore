@@ -74,3 +74,20 @@ typings/
 
 # FuseBox cache
 .fusebox/
+
+# ignore output
+formattedLog.txt
+
+## ignore some common log files
+Log.txt
+array.txt
+Log(1).txt
+Log(2).txt
+Log(3).txt
+Log(4).txt
+Log(5).txt
+Log(6).txt
+Log(7).txt
+Log(8).txt
+Log(9).txt
+Log(10).txt
