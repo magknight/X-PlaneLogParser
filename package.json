@@ -12,6 +12,11 @@
     "log",
     "parser"
   ],
-  "author": "aeroniemi",
-  "license": "MIT"
+  "author": "Magknight",
+  "url": "https://magknight.org/",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/magknight/X-PlaneLogParser.git"
+  }
 }
