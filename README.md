@@ -3,7 +3,7 @@ As the name suggests, it's a parser for the X-Plane log file. I was getting real
 
 It's not very exciting
 
-## Useage
+## Usage
 For the default file location: ``./Log.txt`` run
 ```npm start```
 For a custom file location, run:
