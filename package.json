@@ -1,6 +1,6 @@
 {
   "name": "x-plane-log-parser",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A parser for x-plane log files, to remove all the stuff I don't care about",
   "main": "index.js",
   "scripts": {

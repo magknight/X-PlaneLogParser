@@ -23,10 +23,6 @@ var tableOfIgnores = [
 ]
 var outputTable = []
 
-function after_forloop() {
-    // task you want to do after for loop finishes it's execution
-}
-
 lineReader.on('line', function (line) {
 
     for (i = 0; i < tableOfIgnores.length; i++) {
@@ -40,8 +36,9 @@ lineReader.on('line', function (line) {
         }
     }
 });
+lineReader.on('error', function (err) { console.log(err) });
 lineReader.on("close", function () {
-    output.on('error', function (err) { /* error handling */ });
+    output.on('error', function (err) { console.log(err) });
     outputTable.forEach(function (v) { output.write(v + '\n'); });
     output.end();
     console.log("Done")
