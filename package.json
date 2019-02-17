@@ -18,5 +18,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/magknight/X-PlaneLogParser.git"
+  },
+  "bin": {
+    "xp-log": "./index.js"
   }
 }
